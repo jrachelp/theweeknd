@@ -1,0 +1,369 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.maincontent {
+	width: 90vw;
+	max-width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content:  center;
+	margin: 0 auto;
+}
+
+.maintext {
+	padding-top: 2vh;
+	white-space: nowrap;
+
+}
+.maintext a {
+	text-decoration: none;
+}
+.maintext span {
+	display: inline-block;
+	text-decoration: none;
+}
+.maintext h1 {
+	font-family: "Arial Black", sans-serif;
+	color: white;
+	opacity: 1;
+	margin: 0;
+	padding: 0;
+	font-size: 6vw;
+	line-height: 1.2em;
+	text-decoration: none;
+	display: flex;
+	flex-direction: center;
+	justify-content: center;
+	
+}
+
+.maintext h1 span {
+	text-decoration: none;
+    color: rgba(0,0,0,1);
+   /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: grey; */
+}
+.hov-letter:hover, .hov-letter{
+	 -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.8) 30%, #000 50%, rgba(0,0,0,.8) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+  	color: crimson;
+	/* -webkit-text-stroke-color: white; */
+
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+}
+
+
+.nav {
+	width: 60vw;
+	top: 25vh;
+	font-family: Arial, sans-serif;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+
+}
+.nav:hover, .nav ul {
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.8) 30%, #000 50%, rgba(0,0,0,.8) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+.nav ul {
+	list-style-type: none;
+	font-weight: bold;
+    margin: 0;
+    padding: 2vh;
+    overflow: hidden;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.two a {
+	color: crimson;
+}
+.one a, .three a {
+	color: white;
+}
+.nav li {
+	float: left;
+}
+.one a{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-style: none;
+}
+.three a{
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-style: none;
+}
+.nav li a {
+	font-size: 2vh;
+	
+	display: block;
+	background-color: rgb(0,0,0,1);
+	text-align: center;
+	padding: 2vh;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+.nav li a:hover {
+	background-color: crimson;
+	color: white;
+}
+
+
+.body {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: black;
+	margin-top: 10vh;
+
+}
+
+.tab {
+	width: 100%;
+	overflow: hidden;
+	background-color: black;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: sticky;
+	padding-top: 2vh;
+}
+.tab button {
+  float: left;
+  background-color: black;
+  color: white;
+  padding: 1vh;
+  width: 14%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 2em;
+}
+.tab img {
+	width: 50%;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+
+/* Style the tab content */
+
+.content {
+	background-color: black;
+	padding-top: 5vh;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.tabcontent {
+text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+}
+.tabcontent h1 {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 10vh;
+}
+.tabcontent h2 {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 4vh;
+}
+.tabcontent h3 {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 4vh;
+}
+.tabcontent p {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 2vh;
+}
+
+.parallax1 {
+	background-image: url("weeknd/wickedgames1.png");
+
+}
+.parallax2 {
+	background-image: url("weeknd/rollingstone1.png");
+}
+.parallax3 {
+	background-image: url("weeknd/next1.png");
+}
+.parallax4 {
+	background-image: url("weeknd/twentyeight3.png");
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4 {
+	position: relative;
+	opacity: .8;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-container {
+	width: 100%;
+	margin: 0 auto;
+	padding-top:20vh;
+}
+.text {
+	font-family: Arial, sans-serif;
+	font-size: 2em;
+	color: rgb(255,255,255,1);
+	height: 1000px;
+	text-align: center;
+	width: 40%;
+	margin: 0 auto;
+	opacity: 1;
+	padding-top: 30vh;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 80%;
+	z-index: 3;
+	align-content: center;
+}
+
+.Kparallax1 {
+	background-image: url("weeknd/bttw1.png");
+}
+.Kparallax2 {
+	background-image: url("weeknd/bttw2.png");
+}
+.Kparallax3 {
+	background-image: url("weeknd/livefor1.png");
+}
+.Kparallax4 {
+	background-image: url("weeknd/pretty1.png");
+}
+.Kparallax1, .Kparallax2, .Kparallax3, .Kparallax4 {
+	position: relative;
+	opacity: .8;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Bparallax1 {
+	background-image: url("weeknd/often3.png");
+}
+.Bparallax2 {
+	background-image: url("weeknd/thehills1.png");
+}
+.Bparallax3 {
+	background-image: url("weeknd/cfmf1.png");
+}
+.Bparallax4 {
+	background-image: url("weeknd/tyf1.png");
+}
+.Bparallax1, .Bparallax2, .Bparallax3, .Bparallax4 {
+	position: relative;
+	opacity: .8;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Sparallax1 {
+	background-image: url("weeknd/starboy1.png");
+}
+.Sparallax2 {
+	background-image: url("weeknd/reminder1.png");
+}
+.Sparallax3 {
+	background-image: url("weeknd/ific1.png");
+}
+.Sparallax4 {
+	background-image: url("weeknd/partymonster1.png");
+}
+.Sparallax1, .Sparallax2, .Sparallax3, .Sparallax4 {
+	position: relative;
+	opacity: .8;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Mparallax1 {
+	background-image: url("weeknd/comn1.png");
+}
+.Mparallax2 {
+	background-image: url("weeknd/comn2.png");
+}
+.Mparallax3 {
+	background-image: url("weeknd/wastedtimes1.png");
+}
+.Mparallax1, .Mparallax2, .Mparallax3 {
+	position: relative;
+	opacity: .8;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Aparallax1 {
+	background-image: url("weeknd/blinding2.png");
+}
+.Aparallax2 {
+	background-image: url("weeknd/afterhours2.png");
+}
+.Aparallax3 {
+	background-image: url("weeknd/iye2.png");
+}
+.Aparallax4 {
+	background-image: url("weeknd/heartless2.png");
+}
+.Aparallax1, .Aparallax2, .Aparallax3, .Aparallax4 {
+	position: relative;
+	opacity: .8;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

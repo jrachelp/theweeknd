@@ -1,0 +1,172 @@
+body {
+width: 100%;
+	margin: 0 auto;
+
+}
+.header {
+	background-color: black;
+	width: 100%;
+	height: 5%;
+
+}
+.maincontent {
+	width: 90vw;
+	max-width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content:  center;
+	margin: 0 auto;
+}
+
+.maintext {
+	padding-top: 2vh;
+	white-space: nowrap;
+
+}
+.maintext a {
+	text-decoration: none;
+}
+.maintext span {
+	display: inline-block;
+	text-decoration: none;
+}
+.maintext h1 {
+	font-family: "Arial Black", sans-serif;
+	color: white;
+	opacity: 1;
+	margin: 0;
+	padding: 0;
+	font-size: 6vw;
+	line-height: 1.2em;
+	text-decoration: none;
+	display: flex;
+	flex-direction: center;
+	justify-content: center;
+	
+}
+
+.maintext h1 span {
+	text-decoration: none;
+    color: rgba(0,0,0,1);
+   /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: grey; */
+}
+.hov-letter:hover, .hov-letter{
+	 -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.8) 30%, #000 50%, rgba(0,0,0,.8) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+  	color: crimson;
+	/* -webkit-text-stroke-color: white; */
+
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+}
+
+
+.nav {
+	width: 60vw;
+	top: 25vh;
+	font-family: Arial, sans-serif;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+
+}
+.nav:hover, .nav ul {
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.8) 30%, #000 50%, rgba(0,0,0,.8) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+.nav ul {
+	list-style-type: none;
+	font-weight: bold;
+    margin: 0;
+    padding: 2vh;
+    overflow: hidden;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+
+}
+.three a {
+	color: crimson;
+}
+.one a, .two a {
+	color: white;
+}
+.nav li {
+	float: left;
+
+}
+.one a{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-style: none;
+}
+.three a{
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-style: none;
+}
+.nav li a {
+	font-size: 2vh;
+	display: block;
+	background-color: rgb(0,0,0,1);
+	text-align: center;
+	padding: 2vh;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+
+}
+.nav li a:hover {
+	background-color: crimson;
+	color: white;
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: black;
+	margin-top: 10vh;
+}
+.container h1 {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 2vh;
+}
+.container p {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+
+}
+.main {
+	width: 55%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.main img {
+	width: 50%;
+	padding-top: 5vh;
+}
+.main a {
+	text-decoration: none;
+}
