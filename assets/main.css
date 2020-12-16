@@ -1,11 +1,17 @@
 /* lets do this !!! */
 
 body {
-	/* background-image: url("weeknd/wickedgames1.png");
-background-repeat: no-repeat;
-background-size: 100%; */
-height: 100vh;
+	background-image: url("weeknd/wickedgames4.png");
+background-repeat: cover;
+background-position: center;
+background-size: 100%; 
+height: 100%;
 margin 0 auto;
+}
+body::before {
+	background-color: rgb(80,80,80,.2);
+	position: absolute;
+	margin: 0 auto;
 }
 .background {
 	
@@ -17,7 +23,7 @@ margin 0 auto;
 
 }
 .maincontent {
-	width: 90vw;
+	width: 93vw;
 	max-width: 80%;
 	display: flex;
 	flex-direction: column;
@@ -26,7 +32,7 @@ margin 0 auto;
 }
 
 .maintext {
-	padding-top: 15vh;
+	padding-top: 17vh;
 	white-space: nowrap;
 
 }
@@ -44,7 +50,7 @@ margin 0 auto;
 	margin: 0;
 	padding: 0;
 	font-size: 10vw;
-	line-height: 1.2em;
+	line-height: 1.4em;
 	text-decoration: none;
 	display: flex;
 	flex-direction: center;
@@ -54,7 +60,7 @@ margin 0 auto;
 
 .maintext h1 span {
 	text-decoration: none;
-    color: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
    /* -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: grey; */
 }
@@ -62,7 +68,7 @@ margin 0 auto;
 	 -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.7) 30%, #000 50%, rgba(0,0,0,.7) 70%);
   -webkit-mask-size: 200%;
   animation: shine 2s infinite;
-  	color: crimson;
+  	color: black;
 	/* -webkit-text-stroke-color: white; */
 
 }
@@ -102,12 +108,13 @@ margin 0 auto;
     overflow: hidden;
    display: flex;
    flex-direction: row;
-   justify-content: center;
+   justify-content: left;
+   padding-left: 6vw;
 }
 .nav li {
 	float: left;
 }
-.one a{
+/*.one a{
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
 	border-style: none;
@@ -116,7 +123,7 @@ margin 0 auto;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 	border-style: none;
-}
+} */
 .nav li a {
 	display: block;
 	color: white;
@@ -129,4 +136,40 @@ margin 0 auto;
 .nav li a:hover {
 	background-color: crimson;
 	color: white;
+}
+
+.image {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+.image a{
+	padding-top: 15vh;
+	width: 30%;
+	height: auto;
+	margin: 0 auto;	
+	text-decoration: none;
+	align-self: center;
+	opacity: 1;
+
+}
+
+.image a {
+	text-decoration: none;
+}
+.image a:hover {
+	opacity: .7;
+}
+.bottom {
+	padding-top: 4vh;
+	width: 100%;
+	margin: 0 auto;
+	align-content: center;
+}
+.bottom p {
+	text-align: center;
+	color: white;
+	font-family: arial, sans-serif;
 }
