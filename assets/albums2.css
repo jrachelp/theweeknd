@@ -1,0 +1,295 @@
+body {
+  background-color: black;
+ overflow-y: scroll;
+
+
+ }
+*{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+section {
+	width: 100%;
+	height: auto;
+	
+}
+a {
+	text-decoration: none;
+
+}
+div.container
+{
+    font-family: Raleway;
+    margin: 0 auto;
+  padding: 1em 2em;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 12;
+  
+
+  
+}
+div.container img {
+width: 4vh;
+height: auto;
+}
+div.container a
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+div.borderXwidth a:before, div.borderXwidth a:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.borderXwidth a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderXwidth a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
+{
+    opacity: 1;
+    width: 100%;
+}
+a:focus {
+	color: red;
+}
+.tab button {
+  float: left;
+  background-color: black;
+  color: white;
+  padding: 1vh;
+  width: 14%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 2em;
+}
+.tabcontent {
+text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  
+}
+.tabcontent h1 {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+}
+.tabcontent h2 {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 6vh;
+}
+.tabcontent h3 {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 4vh;
+}
+.tabcontent p {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 2vh;
+}
+
+.parallax1 {
+	background-image: url("weeknd/wickedgames3.jpg");
+
+}
+.parallax2 {
+	background-image: url("weeknd/rollingstone1.png");
+}
+.parallax3 {
+	background-image: url("weeknd/next2.png");
+}
+.parallax4 {
+	background-image: url("weeknd/twentyeight4.png");
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4 {
+	position: relative;
+	opacity: .8;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-container {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+.text {
+	font-family: Arial, sans-serif;
+	font-size: 2em;
+	color: rgb(255,255,255,1);
+	height: 1000px;
+	text-align: center;
+	width: 40%;
+	margin: 0 auto;
+	opacity: 1;
+	padding-top: 40vh;
+}
+.Kparallax1 {
+	background-image: url("weeknd/bttw1.png");
+}
+.Kparallax2 {
+	background-image: url("weeknd/bttw2.png");
+}
+.Kparallax3 {
+	background-image: url("weeknd/livefor2.png");
+}
+.Kparallax4 {
+	background-image: url("weeknd/pretty2.png");
+}
+.Kparallax1, .Kparallax2, .Kparallax3, .Kparallax4 {
+	position: relative;
+	opacity: .8;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Bparallax1 {
+	background-image: url("weeknd/often4.png");
+}
+.Bparallax2 {
+	background-image: url("weeknd/thehills3.png");
+}
+.Bparallax3 {
+	background-image: url("weeknd/cfmf1.png");
+}
+.Bparallax4 {
+	background-image: url("weeknd/tyf2.png");
+}
+.Bparallax1, .Bparallax2, .Bparallax3, .Bparallax4 {
+	position: relative;
+	opacity: .8;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Sparallax1 {
+	background-image: url("weeknd/starboy1.png");
+}
+.Sparallax2 {
+	background-image: url("weeknd/reminder4.png");
+}
+.Sparallax3 {
+	background-image: url("weeknd/ific1.png");
+}
+.Sparallax4 {
+	background-image: url("weeknd/partymonster1.png");
+}
+.Sparallax1, .Sparallax2, .Sparallax3, .Sparallax4 {
+	position: relative;
+	opacity: .8;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Mparallax1 {
+	background-image: url("weeknd/comn3.png");
+}
+.Mparallax2 {
+	background-image: url("weeknd/comn4.png");
+}
+.Mparallax3 {
+	background-image: url("weeknd/wastedtimes2.png");
+}
+.Mparallax1, .Mparallax2, .Mparallax3 {
+	position: relative;
+	opacity: .8;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Aparallax1 {
+	background-image: url("weeknd/blinding2.png");
+}
+.Aparallax2 {
+	background-image: url("weeknd/afterhours2.png");
+}
+.Aparallax3 {
+	background-image: url("weeknd/iye2.png");
+}
+.Aparallax4 {
+	background-image: url("weeknd/heartless2.png");
+}
+.Aparallax1, .Aparallax2, .Aparallax3, .Aparallax4 {
+	position: relative;
+	opacity: .8;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gifs {
+	padding-top: 20vh;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+align-content: center;
+padding-bottom: 20vh;
+}
+.gifs img{
+	width: 26%;
+	padding: 2vh;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 5vh;
+}
